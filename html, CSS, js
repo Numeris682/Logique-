@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logique - Clarté Mentale & Ressources</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: #000;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      background: #111;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      background: #222;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .cta-btn {
+      display: inline-block;
+      background: #fff;
+      color: #000;
+      padding: 0.8rem 1.2rem;
+      margin-top: 1rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .resources, .formations {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #111;
+      padding: 1.5rem;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .card h3 {
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #111;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin: 0.5rem 0;
+      border: none;
+      border-radius: 5px;
+    }
+    form button {
+      background: #fff;
+      color: #000;
+      border: none;
+      padding: 0.8rem;
+      cursor: pointer;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Logique 🧠</h1>
+  <p>Clarté mentale, ressources & formations pour structurer ton esprit</p>
+</header>
+
+<nav>
+  <a href="#accueil">Accueil</a>
+  <a href="#ressources">Ressources</a>
+  <a href="#formations">Formations</a>
+  <a href="#apropos">À propos</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="accueil">
+  <h2>Bienvenue sur Logique</h2>
+  <p>Retrouve ici des ebooks, audios et formations pour clarifier ton mental et structurer ta pensée.</p>
+  <a href="#ressources" class="cta-btn">Découvrir les ressources</a>
+</section>
+
+<section id="ressources">
+  <h2>📚 Ressources Gratuites</h2>
+  <div class="resources">
+    <div class="card">
+      <h3>Ebook "Clarté Mentale"</h3>
+      <p>Guide pour vider ton mental.</p>
+      <a href="#" class="cta-btn">Télécharger</a>
+    </div>
+    <div class="card">
+      <h3>Audio Relaxation</h3>
+      <p>Respiration logique guidée.</p>
+      <a href="#" class="cta-btn">Écouter</a>
+    </div>
+    <div class="card">
+      <h3>Vidéo Focus</h3>
+      <p>3 étapes pour retrouver le focus.</p>
+      <a href="#" class="cta-btn">Regarder</a>
+    </div>
+  </div>
+</section>
+
+<section id="formations">
+  <h2>🎓 Formations Premium</h2>
+  <div class="formations">
+    <div class="card">
+      <h3>Formation "Mental Logique"</h3>
+      <p>Programme complet en 5 modules.</p>
+      <a href="#" class="cta-btn">Acheter (Stripe)</a>
+    </div>
+    <div class="card">
+      <h3>Masterclass Focus & Organisation</h3>
+      <p>1h pour structurer ton esprit.</p>
+      <a href="#" class="cta-btn">Acheter (Stripe)</a>
+    </div>
+  </div>
+</section>
+
+<section id="apropos">
+  <h2>À propos</h2>
+  <p>Je suis "Logique", coach en clarté mentale. Ma mission : t'aider à transformer ton chaos mental en stratégie simple et efficace.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <form>
+    <input type="text" placeholder="Nom">
+    <input type="email" placeholder="Email">
+    <textarea placeholder="Message..."></textarea>
+    <button>Envoyer</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Logique. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
