@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="favicon.png">
+
   <title>Logique - Clarté Mentale & Ressources</title>
   <style>
     body {
@@ -91,6 +93,7 @@
 <body>
 
 <header>
+<img src="V_20250803_222041_0000.png"  alt="Logo Logique" style="width:120px; display:block; margin:auto;">
   <h1>Logique 🧠</h1>
   <p>Clarté mentale, ressources & formations pour structurer ton esprit</p>
 </header>
